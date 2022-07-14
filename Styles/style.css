@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(215, 248, 248);
+}
+
+input {
+    width: 20%;
+    height: 30px;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+}
+
+/*-------------------Стили для краткого срока---------------------- */
+
+
+
+.shortInputs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.shortInputs input {
+    margin-top: 5px;
+}
+
+
+.calculationsBlock {
+    background-color: rgb(244, 244, 244);
+    border-radius: 20px;
+    width: 75%;
+    height: 70%;
+}
+
+.totalBudget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(121, 226, 255);
+}
+
+.acceptBlock {
+    margin-top: 20px;
+}
+
+.accetpCalculationsBlock {
+    width: 100%;
+}
+
+.accetpCalculationsBlock {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.accetpCalculations {
+    background-color: rgb(121, 226, 255, 0);
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.accetpCalculations:hover {
+    background-color: rgb(121, 226, 255);
+}
+
+.showCalculations {
+    width: 100%;
+}
+.showFirstShortTeramCalculations {
+    display: flex;
+    background-color: aquamarine;
+}
+
+.calculations {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showCalc {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.showCalcPercent {
+    width: 100%;
+}
+.showCalcMoney {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.showCalcInvest {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.clearButton button{
+    background-color: rgb(211, 53, 53, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.clearButton button:hover {
+    background-color: rgb(211, 53, 53);
+    color: white;
+    border: none;
+}
